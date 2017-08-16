@@ -7,8 +7,8 @@
 #
 # Next steps:
 #      $ cp awked.txt ~/afl/testprogram/in && cd ~/afl/testprogram/in
-#      $ ./awk2dictfiles.sh
-#      $ rm awked.txt # and possibly && rm awk2dictfiles.sh, whatever. You get it.
+#      $ ~/afl/3rdparty/awk2dictfiles.sh       #(this is where i keep all the junk related to afl)
+#      $ rm awked.txt 
 
 for fn in `cat awked.txt`; do
     echo "the next file is $fn"
