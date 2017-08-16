@@ -10,7 +10,7 @@
 #      $ ~/afl/3rdparty/awk2dictfiles.sh       #(this is where i keep all the junk related to afl)
 #      $ rm awked.txt 
 
-for fn in `cat awked.txt`; do
-    echo "the next file is $fn"
-    echo $fn > $fn
+for token in `cat awked.txt`; do
+    echo "the next file is $token"  #not really needed
+    echo $token > $token  # Take the line in "token" and create a file with the same string as the filename
 done
